@@ -1,0 +1,14 @@
+# Test harness cache (kernel + initrd from build-kernel.sh)
+test/vm/.cache/
+
+# Images, VM state and keys
+*.img
+*.img.xz
+*.img.console.log
+*.img.pid
+vm_key
+vm_key.pub
+
+# Image build output
+work/
+deploy/
